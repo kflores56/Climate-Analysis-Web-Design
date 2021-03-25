@@ -21,7 +21,7 @@ body{
 .landing-header {
 	padding-top: 15px; 
 	padding-left: 4px;
-	font-size: 25px;
+	font-size: 30px;
     color: lightseagreen;
 	font-weight: bold;
 	font-family: Georgia, Times, "Times New Roman", serif;
@@ -95,3 +95,24 @@ body{
 	width: 90%;
 	height: 90%;
 }
+
+.table-pg-format {
+	margin: 30px 10px 10px 10px;
+	border: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	color: black;
+	background-color: white;
+	align-items: center;
+}
+
+td{
+	text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+	.topnav.responsive {position: relative;}
+	.topnav.responsive a.icon {
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	}
