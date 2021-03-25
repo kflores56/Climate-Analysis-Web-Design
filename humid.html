@@ -12,7 +12,7 @@
 </head>
 <!--Navigation Bar-->
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
     <a id="nav-style" class="navbar-brand" href="index.html"> &nbsp Latitude &nbsp </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -41,22 +41,53 @@
       </div>
 </nav>
 
-    <div class="container">
-        <section class="row">
-          <div class="col-lg-7 col-md-12">
-              <div class="plot-content">
-                <h1 class="plot-header">Cloudiness</h1>
-                <hr>
-                <img src="./Resources/assets/images/humid.png" alt="Latitude vs. Humidity" id="other-image">
-    
-                <p>
-                  The level of cloudiness in a city does not appear to be related to the lattitude.  Expand more here
-                </p>
-                
-              </div>
-            </div>
+<!--Detailed Page-->
 
-            
+<div class="container">
+    <section class="row">
+      <div class="col-lg-7 col-md-12">
+          <div class="landing-content">
+            <h1 class="landing-header">Summary: Latitude vs. Humidity</h1>
+            <hr>
+            <img src="./Resources/assets/images/humid.png" alt="Latitude vs. Humidty" id="single-image">
+
+            <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. The plot above shows humidity levels across the globe. However, there does not seem to be a correlation between humidity and location. It is interesting to note that most places across the globe seem to have humidity levels aboove 50%.</p>
+          </div>
+        </div>
+
+<!--Create side panel-->
+        <div class="col-lg-5 col-md-12">
+            <div class="side-panel">
+              <h2 class="landing-header">Visualizations</h2>
+              <hr>
+              <div class="container">
     
+                <div class="row">
+    
+                  <div class="col-lg-6 col-md-3">
+                    <a href="./max_temp.html">
+                    <img src="./Resources/assets/images/temp.png"  alt="Latitude vs. Temperature" id="side-image">
+                    </a>
+                  </div>
+              
+                  <div class="col-lg-6 col-md-3">
+                    <a href="./humid.html">
+                    <img src="./Resources/assets/images/humid.png" alt="Latitude vs. Humidity" id="side-image">
+                    </a>
+                  </div>
+              
+                  <div class="col-lg-6 col-md-3">
+                    <a href="./cloud.html">
+                    <img src="./Resources/assets/images/cloud.png" alt="Latitude vs. Cloudiness" id="side-image">
+                    </a>
+                  </div>
+    
+                  <div class="col-lg-6 col-md-3">
+                    <a href="./wind.html">
+                    <img src="./Resources/assets/images/wind.png" alt="Latitude vs. Wind Speed" id="side-image">
+                    </a>
+                  </div>
+                </div>  
+            </div>
 </body>
 </html>
