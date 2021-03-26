@@ -24,7 +24,7 @@ The website consists of 7 pages total, including:
   * A responsive table containing the data used in the visualizations.
   * The data came from exporting the `.csv` file as HTML with Pandas. 
 * The [Navigation Bar](#navigation-menu) contains:
-    *The Navigation bar includes a drop down menu of the visualizations. When the page is made smaller the entire navigation bar collapses into a drop down menu.
+    * The Navigation bar includes a drop down menu of the visualizations. When the page is made smaller the entire navigation bar collapses into a drop down menu.
 
 #### <a id="landing-page"></a>Landing page
 
