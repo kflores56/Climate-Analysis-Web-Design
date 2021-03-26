@@ -22,10 +22,9 @@ The website consists of 7 pages total, including:
   *  All of the visualizations on the same page so they can be easily compared.
 * The [Data page](#data-page) contains:
   * A responsive table containing the data used in the visualizations.
-    * The table must be a bootstrap table component. [Hint](https://getbootstrap.com/docs/4.3/content/tables/#responsive-tables)
-    * The data must come from exporting the `.csv` file as HTML, or converting it to HTML. Try using a tool you already know, pandas. Pandas has a nifty method approprately called `to_html` that allows you to generate a HTML table from a pandas dataframe. See the documentation [here](https://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.to_html.html)
-    * The [Navigation Bar](#navigation-menu) contains:
-        *The Navigation bar includes a drop down menu of the visualizations. When the page is made smaller the entire navigation bar collapses into a drop down menu.
+  * The data came from exporting the `.csv` file as HTML with Pandas. 
+* The [Navigation Bar](#navigation-menu) contains:
+    *The Navigation bar includes a drop down menu of the visualizations. When the page is made smaller the entire navigation bar collapses into a drop down menu.
 
 #### <a id="landing-page"></a>Landing page
 
