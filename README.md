@@ -30,7 +30,7 @@ The website consists of 7 pages total, including:
 
 Large screen:
 
-![Landing page large screen](ReadMe_img/index_lg)
+![Landing page large screen](./ReadMe_img/index_lg)
 
 Small screen:
 
