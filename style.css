@@ -1,0 +1,118 @@
+body{
+    background-color:#E6E6E6;
+  }
+
+#nav-style {
+    background-color: lightseagreen;
+    color: white; 
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Georgia, Times, "Times New Roman", serif
+}
+
+.landing-content {
+	margin-top: 30px;
+	margin-bottom: 60px;
+	padding: 10px 30px 10px;
+	color: black;
+	background-color: white;
+}
+
+.landing-header {
+	padding-top: 15px; 
+	padding-left: 4px;
+	font-size: 30px;
+    color: lightseagreen;
+	font-weight: bold;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+#landing-image {
+    float: left;
+    width: 50%;
+    height: 50%;
+  }
+
+.side-panel {
+	margin-top: 30px;
+	margin-bottom: 60px;
+	padding: 10px 30px 40px;
+	color: black;
+	background-color: white;
+}
+
+#side-image {
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+.hover img{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease
+    }
+    
+.hover img:hover{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    transition: 1s ease;
+    }
+
+#single-image {
+    width: 100%;
+    height: 100%;
+  }
+
+.comp-pg-content {
+	margin-top: 30px;
+	margin-bottom: 60px;
+	margin-right: 100px;
+	margin-left: 100px;
+	padding: 10px 30px 40px;
+	color: black;
+	background-color: white;
+}
+
+.comp-title{
+    padding:  10px 0px 0px 0px;
+	text-align: center;
+	margin-bottom: 0px;
+	color: rgb(40, 164, 180);
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+#comp-image {
+	float: left;
+	width: 90%;
+	height: 90%;
+}
+
+.table-pg-format {
+	margin: 30px 10px 10px 10px;
+	border: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	color: black;
+	background-color: white;
+	align-items: center;
+}
+
+td{
+	text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+	.topnav.responsive {position: relative;}
+	.topnav.responsive a.icon {
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	}
