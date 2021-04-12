@@ -1,4 +1,4 @@
-# Web Design Challenge (Latitude)
+# Web Design for Climate Data
 
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
