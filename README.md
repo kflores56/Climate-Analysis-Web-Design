@@ -77,3 +77,6 @@ Large screen:
 
 Small screen:
 ![nav menu small screen](https://github.com/kflores56/Web-Design-Challenge/blob/main/ReadMe_img/dropdown_sm.png)
+
+
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](mailto:kristin.flores56@gmail.com)
